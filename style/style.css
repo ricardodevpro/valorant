@@ -23,13 +23,10 @@ body {
 
 header {
     display: block;
-    position: relative;
-    left: 50%; top: 50%;
-    transform: translate(-60%, -50%);
-    max-width: 300px;
+    margin: auto;
+    width: 300px;
     padding: 10px 10px;
     margin-top: 50px;
-    margin-left: 20px;
     margin-bottom: 100px;
     background-color: rgb(22, 22, 22);
 }
@@ -47,14 +44,14 @@ header ul li {
 /* MAIN */
 
 main {
-    width: 400px;
-    margin-left: 70px;
+    width: 300px;
     display: block;
+    margin: auto;
     margin-bottom: 100px;
 }
 
 main h3 {
-    width: 400px;
+    width: 300px;
     text-align: left;
     color: white;
     text-transform: uppercase;
@@ -104,7 +101,7 @@ main a {
 footer {
    display: block; 
    width: 300px;
-   margin-left: 70px;
+   margin: auto;
    margin-bottom: 50px;
 }
 
@@ -114,25 +111,22 @@ footer p {
     opacity: .8;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 768px){
     header {
-        max-width: 600px;
-        margin-bottom: 120px;
-
         display: block;
-        position: relative;
-        left: 50%; top: 50%;
-        transform: translate(-57%, -50%);
+        margin: auto;
+        width: 500px;
+        padding: 10px 10px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(22, 22, 22);
     }
 
     main {
         width: 500px;
         display: block;
-        position: relative;
-        left: 50%; top:50%;
-        transform: translate(-90%, -00%);
-        margin-bottom: 130px;
-        margin-left: 120px;
+        margin: auto;
+        margin-bottom: 100px;
     }
     
     main h3 {
@@ -190,8 +184,8 @@ footer p {
 
     footer {
         display: block; 
-        width: 300px;
-        margin-left: 100px;
+        width: 500px;
+        margin: auto;
         margin-bottom: 50px;
      }
      
@@ -205,23 +199,20 @@ footer p {
 @media screen and (min-width: 992px) {  
     
     header {
-        max-width: 600px;
-        margin-bottom: 120px;
-
         display: block;
-        position: relative;
-        left: 50%; top: 50%;
-        transform: translate(-57%, -50%);
+        margin: auto;
+        width: 600px;
+        padding: 10px 10px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(22, 22, 22);
     }
 
     main {
-        width: 500px;
+        width: 600px;
         display: block;
-        position: relative;
-        left: 50%; top:50%;
-        transform: translate(-90%, -00%);
-        margin-bottom: 130px;
-        margin-left: 120px;
+        margin: auto;
+        margin-bottom: 100px;
     }
     
     main h3 {
@@ -229,7 +220,6 @@ footer p {
         color: white;
         text-transform: uppercase;
         margin-bottom: 20px;
-        margin-left: 0px;
     }
 
     .letter { 
@@ -282,13 +272,8 @@ footer p {
     }
 
     footer {
-        width: 500px;
+        width: 600px;
         display: block;
-        position: relative;
-        left: 50%; top:50%;
-        transform: translate(-90%, -00%);
-        margin-bottom: 130px;
-        margin-left: 120px;
      }
      
      footer p {
